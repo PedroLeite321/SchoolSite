@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "ProjectCssHtml.css">
+    <title>Website design from easy tutorials</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+    <section class = "header">
+        <nav>
+            <a href="#"><img src = "./img/logo.png"></a>
+            <div class = "nav-links" id = "navsLinks">
+                <i class="fa fa-times-circle" onclick = "hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick = "showMenu()"></i>
+        </nav>
+        <div class = "text-box"> 
+            <h1>World's Biggest University</h1>
+            <p>Making website is now one of the easiest things in the world. <br> You just need to learn HTML, CSS and Javascript and you are good to go</p>
+            <a href="#" class = "hero-btn">Visit Us to know More</a>
+        </div>
+    </section>
+
+    <section class = "course">
+        <h1>Available Courses</h1>  
+
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque quas deleniti beatae atque qui aperiam, ducimus et, amet iste ab sit rem nostrum necessitatibus temporibus consequatur ratione fugiat sed perspiciatis.</p>
+
+        <div class = "row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nulla praesentium consectetur v?</p>
+                </div>
+            
+       
+
+
+        
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nulla praesentium consectetur </p>
+                </div>
+            
+       
+
+
+       
+                <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nulla praesentium consectetur </p>
+         
+        </div>
+        </div>
+
+
+
+
+
+    </section>
+
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </section>
+
+    <div class="row1">
+        <div class="Campus-col">
+            <img src="./img/london.png">
+            <div class="layer">
+                <h3>LONDON</h3>
+            </div>
+        </div>
+
+        <div class="Campus-col">
+            <img src="./img/washington.png">
+            <div class="layer">
+                <h3>NEW YORK</h3>
+            </div>
+        </div>
+
+        <div class="Campus-col">
+            <img src="./img/newyork.png">
+            <div class="layer">
+                <h3>WASHINGTON</h3>
+            </div>
+         </div>   
+    </div>
+
+
+    <!--JavaScript for Toggle Menu-->
+    <script>
+        var navlinks = document.getElementById("navsLinks");
+        function showMenu(){
+            navsLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navsLinks.style.right = ""
+        }
+    </script>
+
+    
+</body>
+</html>
